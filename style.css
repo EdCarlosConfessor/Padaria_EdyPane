@@ -8,14 +8,33 @@
 }
 
 header {
-    display: flex;
-    align-items: center;
+    display: flex;                  /* responsavel por colocar os itens na mesma linha */
+    align-items: center;            /* alinha os itens para o centro */
     justify-content: space-evenly;
     padding: 15px;
-    background-color: brown;
+    background-color: brown;      /* Cor do header, a primeira barra cabeçalho */
     overflow: hidden;
     line-height:200px;
     max-height: 200px;
 
 
+}
+
+header > h1 {
+    color: white;  /* Demos a cor branca para o nome da padaria*/
+}
+
+header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada */
+    width:180px;     /* Largura da nossa imagem LOGO */
+    height: 150px;   /* Altura da nossa imagem */
+}
+
+#menu-header {           /* menu de navegação */
+    display: flex;       /* responsavel por colocar os itens na mesma linha */
+    align-items: center; /* alinha os itens para o centro */
+}
+
+#list-menu {             /* mudando diretamente  a lista ordenada */
+    display: flex;       /* responsavel por colocar os itens na mesma linha */
+    margin-right: 1rem;  /* Margem da direita  usei 1rem equivalente a 16px */
 }
