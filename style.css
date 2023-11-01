@@ -71,3 +71,9 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     align-items: center;          /* alinha os itens para o centro */
 
 }
+
+#otao-header > button > a > img {
+    width: 30px;                   /* largura */
+    height: 30px;                  /* Altura */
+    margin-right: 2px;             /* */
+}
