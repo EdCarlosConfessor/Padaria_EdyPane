@@ -5,7 +5,7 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
+}  /* --------------- AQUI ABAIXO E A ESTILIZAÇÃO DO CORPO DO HEADER ------------------------------*/
 
 header {
     display: flex;                  /* responsavel por colocar os itens na mesma linha */
@@ -18,7 +18,7 @@ header {
     max-height: 200px;
 
 
-}
+}  /* ---------------------  AQUI E A ESTILIZAÇÃO DOS ITENS QUE ESTÃO NO HEADER CABEÇALHO ----------------------- */
 
 header > h1 {
     color: white;  /* Demos a cor branca para o nome da padaria*/
@@ -35,6 +35,39 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
 }
 
 #list-menu {             /* mudando diretamente  a lista ordenada */
-    display: flex;       /* responsavel por colocar os itens na mesma linha */
+    display: flex;       /* Responsavel por colocar os itens na mesma linha */
     margin-right: 1rem;  /* Margem da direita  usei 1rem equivalente a 16px */
+}
+
+.item-menu-header {     /* Nesse item-menu-header, estilizo o HOME, PRODUTOS e CONTATOS ao mesmo tempo */
+    margin-right: 25px; /* Margin da direita de cada palavra */
+}
+
+.item-menu-header > a:hover {  /* o hover e responsavel por execultar as programações abaixo, ao passar o mouse */
+
+    color: yellow;    /* Aqui atribui uma cor amarela */
+    transition: 1s;     /* Tempo em que sera exibido ao passar o mouse*/
+}
+
+.item-menu-header > a {   /* Nossas li que estão dentro da list MENU.(a)*/
+    color: white;        /* Cor da letras */
+    text-decoration: none; /* Responsável por remover a linha abaixo das palavras links */
+    font-size: 12px;       /* Tamanho das letras */
+}
+
+#botao-header {            /* Nossa ID do botão de login */
+    display: flex;         /* Resposável por colocar os itens na mesma linha lado a lado */
+}
+
+#botao-header > button {
+    padding: 8px;                   /* Cuida do preenchimento */
+    background-color: transparent;  /* Aqui deixa o fundo do botão transparente*/
+    border: none;                   /* E usado para retirar aqui as bordas do botão */
+
+}
+
+#botao-header > button > a {      /* Aqui estou estilizando o botão de login */
+    display: flex;                /* Responsavel por colocar os itens na mesma linha */
+    align-items: center;          /* alinha os itens para o centro */
+
 }
