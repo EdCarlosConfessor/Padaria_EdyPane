@@ -1,3 +1,12 @@
+/*
+DIFERENÇA ENTRE ID E CLASS:
+A diferença e que um "id" é usado apenas para indentificar um unico elemento em nosso HTML.
+Os indentificadores são usados apenas quando um elemento  
+*/
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -72,8 +81,14 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
 
 }
 
-#botao-header > button > a > img {
+#botao-header > button > a > img { /* Mexendo no botão de loguin*/
     width: 30px;                   /* largura */
     height: 30px;                  /* Altura */
-    margin-right: 2px;             /* */
+    margin-right: 2px;             /* Margen da direita */
+}
+
+#botao-header > button > a {    /* Estamos chamando aqui nossa Tag de Link para ALTERÃO NOVAMENTE */
+    color: white;             /* Cor da Letra do botão */
+    text-decoration: none;      /* Responsavél por tirar o sublinhado da palavra */
+    font-weight: 400;           /* Espessura da fonte ( engrossa a fonte */
 }
