@@ -72,7 +72,7 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
 
 }
 
-#otao-header > button > a > img {
+#botao-header > button > a > img {
     width: 30px;                   /* largura */
     height: 30px;                  /* Altura */
     margin-right: 2px;             /* */
