@@ -92,3 +92,19 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     text-decoration: none;      /* Responsavél por tirar o sublinhado da palavra */
     font-weight: 400;           /* Espessura da fonte ( engrossa a fonte */
 }
+
+#img-destaque {                                   /* Trazendo atraves da, div id="img-destaque para a pagina */
+    background-image: url(imagens/padaria.webp);  /* Buscando a imagem na pasta imagens*/
+    padding: 230px;                               /* Largura da imagem*/
+    background-position: center;                  /* Alinha imagem ao centro */
+    background-size: cover;                       /* Abre a imagem buscando a proporção dela no espaço */
+    
+    
+}
+
+.img-div {
+    padding: 25px;
+    background-image: url(imagens/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+}
