@@ -31,6 +31,7 @@ header {
 
 header > h1 {
     color: white;  /* Demos a cor branca para o nome da padaria*/
+    font-size: 60px;       /* Tamanho das letras */
 }
 
 header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada */
