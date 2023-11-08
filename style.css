@@ -118,9 +118,9 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
 
 }
 
-#clients {                                  /* Chamei a area sessão para estilização */
+#clients {                         /* Chamei a area sessão para estilização */
     background-color: white;     /* Cor do funto branca */
-    padding: 100px;                 /* Dei uma largura de 50px*/
+    padding: 50px;                /* Dei uma largura de 50px*/
     margin-top: 0;
 
 }
@@ -152,5 +152,29 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     height: 84px;
 }
 
+.clients-item > h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+    align-items: center;
+
+
+}
+
+.clients-item > p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.img-div {
+    padding: 25px;
+    background-image: url(imagens/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+}
 
 
