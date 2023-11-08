@@ -1,5 +1,5 @@
 /*
-DIFERENÇA ENTRE ID E CLASS:
+DIFERENÇA ENTRE "ID #" e "CLASS .":
 A diferença e que um "id" é usado apenas para indentificar um unico elemento em nosso HTML.
 Os indentificadores são usados apenas quando um elemento  
 */
@@ -109,3 +109,48 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     background-position: center;
     background-size: auto;
 }
+
+#clients h2 {             /* Chamei o "NOSSOS CLIENTES" para estilização */
+    text-align: center;   /* Alinhando o texto ao centro */
+    font-size: 32px;      /* Alterando o tamanho da fonte para 32px */
+    color: brown;       /* Dando uma cor ao texto */
+    /*margin-top: 5px;    /* Deixei sem, para poder ficar igual a linha de baixo sobre o "NOSSOS CLIENTES" */
+
+}
+
+#clients {                                  /* Chamei a area sessão para estilização */
+    background-color: white;     /* Cor do funto branca */
+    padding: 100px;                 /* Dei uma largura de 50px*/
+    margin-top: 0;
+
+}
+
+.line {
+    margin: auto;
+    width: 30%;
+    border: 1px solid rgb(68, 20, 20); /* Exemplo: borda preta de 2 pixels de espessura */
+    /* margin-top: 50px;    /* Deixei sem para poder ficar igual a linha de cima sobre o "NOSSOS CLIENTES" */
+}
+
+#clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+
+}
+.clients-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.clients-item  > img {
+    width: 84px;
+    height: 84px;
+}
+
+
+
