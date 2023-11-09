@@ -177,6 +177,10 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     background-size: auto;
 }
 
+#products {
+    background: linear-gradient(180deg #d49664 8.33%, rgb (244, 200, 175, 0)100%);  /* Aqui colocamos uma stilização de fundo degrade */
+}
+
 
 
 
