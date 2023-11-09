@@ -177,10 +177,23 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     background-size: auto;
 }
 
-#products {
-    background: linear-gradient(180deg #d49664 8.33%, rgb (244, 200, 175, 0)100%);  /* Aqui colocamos uma stilização de fundo degrade */
+#products {           /* ID usada para a section dos nossos produtos */
+    background: linear-gradient(180deg, #d49664 8.33%, rgb(244, 200, 175, 0) 100%);  /* Aqui colocamos uma stilização de fundo degrade */
+    padding: 30px;  /* Prenchimento */
 }
 
+.section-product {    /* Chamamos nossa div Pai para estilização */
+    margin-top: 3em;  /* */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-product {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
 
 
 
