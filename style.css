@@ -233,6 +233,26 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
 
 }     /* Abaixo, bora CODAR a estilização do "h3* alterar cor, tamnha, alinhar ao centro e fonte */
 
+#sobre-nos > h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#sobre-nos > p {   /* Chamei os paragrafos do sobre nós para estilização */
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 2em;
+    text-align: justify;
+}
+
+
+
 
 
 
