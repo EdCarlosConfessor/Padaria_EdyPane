@@ -182,18 +182,60 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     padding: 30px;  /* Prenchimento */
 }
 
-.section-product {    /* Chamamos nossa div Pai para estilização */
-    margin-top: 3em;  /* */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#products > h2 {
+    text-align: center;
+    font-size: 40px;
 }
 
-.img-product {
-    width: 300px;
-    height: 300px;
-    border-radius: 50px;
+.section-product {    /* Chamamos nossa div Pai para estilização */
+    margin-top: 3em;  /* Espaçamento Superior */
+    display: flex;    /* Tornando essa sessão Flex e jogando itens lado a lado */
+    align-items: center;  /* Alinhamento dos itens ao centro */
+    justify-content: space-evenly; /* Espaçamento justificado */
 }
+
+.img-product {   /* Aqui chamamos nossa imagens para edição */
+    width: 300px;  /* Largura das imagens */
+    height: 300px; /* Altura das imagens */
+    border-radius: 50px; /* Deixando as bordas das imagens redonda */
+}
+
+.title-product {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+#products > a {
+    text-decoration: none; /* Retira a linha embaixo da palavra*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#products > a:hover { /* Efeito ao passar o mouse mo "Ver Tudo" */
+    font-size: 22px;
+    transition: 0.8s;
+    color: tomato;
+}
+
+#sobre-nos {      /* chamei o sobre nos para estilização*/
+    background-image: url(imagens/fundo-sobre-nos.jpg);  /* inseri a imagem de fundo*/
+    background-repeat: no-repeat;  /* Não repetir na tela */
+    background-position: center;  /* Posicionei a imagem ao centro */
+    background-size: cover;  /*  Habilitei o tamanho total da imagem */
+    background-attachment: fixed;  /* Fixei a imagem parada ao fundo */
+    padding: 120px;   /* Dei uma largura a sessão / Tamanho do preenchimento */
+
+}     /* Abaixo, bora CODAR a estilização do "h3* alterar cor, tamnha, alinhar ao centro e fonte */
+
+
+
+
 
 
 
