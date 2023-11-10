@@ -30,7 +30,7 @@ header {
 }  /* ---------------------  AQUI E A ESTILIZAÇÃO DOS ITENS QUE ESTÃO NO HEADER CABEÇALHO ----------------------- */
 
 header > h1 {
-    color: white;  /* Demos a cor branca para o nome da padaria*/
+    color: white;        /* Demos a cor branca para o nome da padaria*/
     font-size: 60px;       /* Tamanho das letras */
 }
 
@@ -251,7 +251,45 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     text-align: justify;
 }
 
+footer{
+    padding: 80px;
+    background-image: url(imagens/img-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
+footer ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item-menu-footer {  /*  Aqui so posicionei os intens detro do footer*/
+    align-items: center; /* Posicionamos ao centro */
+    margin-top: 30px;   /* espaçamneto superior*/
+    display: flex;  /* Alinhamento dos itens lado a lado*/
+}
+
+.item-menu-footer img{  /*Aqui e a stilização dos icones dos contatos e endereço */
+    width: 34px;     /* Largura da imagem */
+    height: 34px;   /* altura da imagem */
+
+}
+
+.item-menu-footer p {   /* Chamando a tag p para estilização */
+    color: black;  /* cor da letra */
+    font-size: 25px;  /* Tamanho da letra */
+    font-weight: bold;  /* Espeçura da letra tipo negrito */
+    margin-left: 10px;   /* Abre um espaçamento a direita entre os icones e o paragrafo */
+}
 
 
 
