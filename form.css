@@ -1,0 +1,49 @@
+*{    /* Configuração padrão para inicio da Estilização*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Aqui colocamos estilização no corpo da pagina */
+
+body {
+    width: 100%; /* Largura*/
+    height: 100vh;  /* largura / comprimento */
+    background-image: url(imagens/img-footer.jpg);  /* Aqui enseri a imagem de fundo */
+    background-position: center;  /* posicionamos a imagem ao centro */
+    background-repeat: no-repeat;  /* para que a imagem não se repita */
+    background-size: cover;  /* Aqui faz com que a imagem fique uniforme na pagina */
+    display: flex; /* responsavel por colocar itens na mesma linha lado  a lado */
+    align-items: center;  /* alinha os itens para o centro */
+    justify-content: center; /* justificar conteudo ao centro */
+}
+
+.container {
+    max-width: 1280px;  /* Atribui aqui um tamanho maximo de largura que essa class ira exercer */
+    margin: 0 auto;     /* Digo para o navegador que as margens superior e inferior sçao iguais a 0 e as da esquerda e direita são automaticas */
+}
+
+
+form {
+    background-color: white; /* Colocamos uma cor de fundo */
+    max-width: 500px;  /* Atribuimos aqui um tamanho maximo de largura que esse formulario ira exercer */
+    height: 450px; /* Largura do formulario */
+    padding: 40px;  /* Preenchimento */
+    border-radius: 20px; /* Arredondamento das bordas do formularuio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
