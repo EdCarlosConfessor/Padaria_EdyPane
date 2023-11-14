@@ -26,11 +26,28 @@ body {
 
 
 form {
-    background-color: white; /* Colocamos uma cor de fundo */
+    background-color: rgba(255, 255, 255, 0.39); /* Colocamos uma cor de fundo */
     max-width: 500px;  /* Atribuimos aqui um tamanho maximo de largura que esse formulario ira exercer */
     height: 450px; /* Largura do formulario */
     padding: 40px;  /* Preenchimento */
     border-radius: 20px; /* Arredondamento das bordas do formularuio */
+}
+
+form h1 {    /* Chamei o h1 para estilização */
+    text-align: center;  /* alinhei o texto ao centro */
+    font-size: 30px;     /* Dei um tamanho ao h1 */
+    color: rgb(131, 16, 16);   /* Dei a cor preta para o h1 */
+
+}
+
+form p {  /* Chamei o paragrafo para estilização */
+    text-align: center;  /* levei o texto parfa o centro */
+    margin: 20px 0;  /* digo ao navegado que tanto a margen superior e inferiror são iguais a 20 e a esquerda e direita e igual a 0 */
+}
+
+.inpput-single {    /* Chamamos nossa Class que esta encabeçada nas div's dos nossos input's e label's para estilização */
+    position: relative;   /* Posição relativa*/
+    margin: 20px 0;   /* digo ao navegado que tanto a margen superior e inferiror são iguais a 20 e a esquerda e direita e igual a 0 */
 }
 
 
