@@ -13,14 +13,14 @@
 
     <main class="text">
         <?php 
-            $nome = $_GET["nome"];           // Criando uma variavel do tipo GET para guardar o nome
+            $nome = $_GET["nome"];            // Criando uma variavel do tipo GET para guardar o nome
             $sobrenome = $_GET["sobrenome"];  // Criando uma variavel do tipo GET para guardar o sobrenome
-            $email = $_GET["email"];
-            echo "<p> É um prazer te conhecer, a Edy Pane agradece $nome $sobrenome ! Entraremos em contato com você ! </p>";
+            $email = $_GET["email"];          // Criando uma variavel do tipo GET para guardar o email
+            echo "<p> É um prazer te conhecer, a Edy Pane agradece $nome $sobrenome ! Entraremos em contato com você ! </p>"; // Aqui execulto um paragrafo e no percurso uso as 2 variaveis no meio do paragrafo.
         
         ?>
 
-        <button class="text-js">
+        <button class="text-js">  <!--  Aqui uso um botão com script javascript para chamar uma pagina anterior -->
 
             <a href="javascript:history.go(-1)"> Voltar para pagina anterior</a>
 
