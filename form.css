@@ -45,7 +45,7 @@ form p {  /* Chamei o paragrafo para estilização */
     margin: 20px 0;  /* digo ao navegado que tanto a margen superior e inferiror são iguais a 20 e a esquerda e direita e igual a 0 */
 }
 
-.inpput-single {    /* Chamamos nossa Class que esta encabeçada nas div's dos nossos input's e label's para estilização */
+.input-single {    /* Chamamos nossa Class que esta encabeçada nas div's dos nossos input's e label's para estilização */
     position: relative;   /* Posição relativa*/
     margin: 20px 0;   /* digo ao navegado que tanto a margen superior e inferiror são iguais a 20 e a esquerda e direita e igual a 0 */
 }
