@@ -291,6 +291,17 @@ footer h2 {
     margin-left: 10px;   /* Abre um espaçamento a direita entre os icones e o paragrafo */
 }
 
+@media(max-width:430px){
+
+    #menu-header{
+        display: none;
+    }
+    #btn-header button a {
+        display: block;
+        font-family: bold;
+    }
+}
+
 
 
 
