@@ -20,11 +20,13 @@ header {
     display: flex;                  /* responsavel por colocar os itens na mesma linha */
     align-items: center;            /* alinha os itens para o centro */
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 2%;
     background-color: brown;      /* Cor do header, a primeira barra cabeçalho */
     overflow: hidden;
-    line-height:200px;
+    /*line-height:200px;
     max-height: 200px;
+            Obs: Removi para dar certo la na responsividade do celular
+    */
 
 
 }  /* ---------------------  AQUI E A ESTILIZAÇÃO DOS ITENS QUE ESTÃO NO HEADER CABEÇALHO ----------------------- */
@@ -96,7 +98,7 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
 
 #img-destaque {                                   /* Trazendo atraves da, div id="img-destaque para a pagina */
     background-image: url(imagens/padaria.webp);  /* Buscando a imagem na pasta imagens*/
-    padding: 230px;                               /* Largura da imagem*/
+    padding: 20%;                                 /* Largura da imagem*/
     background-position: center;                  /* Alinha imagem ao centro */
     background-size: cover;                       /* Abre a imagem buscando a proporção dela no espaço */
     
@@ -291,14 +293,48 @@ footer h2 {
     margin-left: 10px;   /* Abre um espaçamento a direita entre os icones e o paragrafo */
 }
 
-@media(max-width:430px){
+@media(max-width:430px){    /* Aqui abrimos a configuração para smarts fones*/
 
-    #menu-header{
+    #menu-header{   /* */
         display: none;
     }
     #btn-header button a {
         display: block;
         font-family: bold;
+    }
+
+    #btn-header button a p {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #btn-header button a img {
+        width: 30%;
+        height: auto;
+
+    }
+
+    header img {   /* aqui estilizo o logo pão*/
+        width: 60px;
+        height: auto;
+    }
+
+    header h1 { /* Aqui estilizo o nome Edy Pane h1*/
+        font-size: 1em;
+
+    }
+
+    header {  /* Largura da faixa do topo */
+        padding: 10%;
+    }
+
+    #img-destaque {   /* mexendo na imagen central dos paes no centro do site*/
+        max-width: 100%;
+        height: auto;
+    }
+
+    #img-padaria{
+        width: 100%;
     }
 }
 
