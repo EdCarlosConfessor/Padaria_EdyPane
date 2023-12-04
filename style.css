@@ -345,7 +345,13 @@ footer h2 {
 
     .line{
        
-        width: 100%;
+        width: 70%;
+    }
+
+    .clients-item p {
+        font-size: 1.6em;
+        text-align: center;
+        margin-bottom: 10%;
     }
 
     .section-product{
