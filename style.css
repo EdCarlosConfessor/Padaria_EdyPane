@@ -223,14 +223,14 @@ header > img {       /* Aqui chamamos a nossa logo do pão para ser estilizada *
     background-position: center;  /* Posicionei a imagem ao centro */
     background-size: cover;  /*  Habilitei o tamanho total da imagem */
     background-attachment: fixed;  /* Fixei a imagem parada ao fundo */
-    padding: 120px;   /* Dei uma largura a sessão / Tamanho do preenchimento */
+    padding: 10%;   /* Dei uma largura a sessão / Tamanho do preenchimento */
 
 }     /* Abaixo, bora CODAR a estilização do "h3* alterar cor, tamnha, alinhar ao centro e fonte */
 
 #sobre-nos > h3 {
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 3em;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -357,8 +357,40 @@ footer h2 {
     .section-product{
         display: block;
         text-align: center;
+    
       
     }
+    .img-product{
+        margin-top: 60px;
+    }
+
+    .section-product a{  /* tentei separa o sobre nos mas não deu, voltar e rever ok */
+        margin-top: 25px;
+    }
+
+    #sobre-nos > h3 {   /* Aqui estilizei o h3 a palavra " SOBRE NÓS" */
+        font-size: 2em;
+    }
+
+    #sobre-nos > p {  /* squi estilizo os paragrafos do SOBRE NÒS */
+        font: bold;
+        font-size: 1.2em;
+    }
+
+    /* -------------------------   Bora estilizar o footer ou Rodape  ---------------------- */
+
+    .contatos-footer{
+        display: block;
+    }
+
+    .item-menu-footer{
+        display: block;
+    }
+     
+    .item-menu-footer img{
+        margin-left: 5em;
+    }
+
 
     
 
